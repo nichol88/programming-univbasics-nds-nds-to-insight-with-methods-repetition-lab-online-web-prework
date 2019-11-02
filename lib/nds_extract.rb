@@ -32,6 +32,7 @@ def list_of_directors(source)
     ary.push(source[counter][:name])
     counter += 1
   end
+  ary
 end
 
 def total_gross(source)
