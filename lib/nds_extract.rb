@@ -50,5 +50,6 @@ def total_gross(source)
   d_list = list_of_directors(source)
   while count < d_list.length
     total += gross_for_director(d_list[count])
+    count += 1
   end
 end
